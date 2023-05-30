@@ -44,7 +44,7 @@ seq = 'TISIGSGGVIGGFDY'
  # lama cdr3
 # seq = 'AAGPPRLCTLSVWTVYDY'  
 
-mapFile = "mer6Lama.npz"
+mapFile = "merMapper/mer6Lama.npz"
 MaxMutations = 2  # be carefull the space to explore grows ~ x^n. in genenral dont exceed 3 for local search, and 2 for global 
 localSearch = False # searce only the space around the mer with the lowest score.
 
