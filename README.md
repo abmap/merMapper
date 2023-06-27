@@ -30,9 +30,9 @@ Below is an example of how to load a map and search the merspace to identify fea
 import itertools, multiprocessing, copy
 import numpy as np
 
-mapFile = "mer6Lama.npz"  #7merScoresBR.npz   "mer6Lama.npz"
+mapFile = "mer6Lama.npz" 
 seq = 'AREGGAAPGARREWYLDL'
-MaxMutations = 3  # be carefull the space to explore grows rapidly. in genenral dont exceed 3 mutations 
+MaxMutations = 3  # Be carefull the space to explore grows rapidly. In genneral don't exceed 3 mutations 
 mask = [0,0,0,0,1,1,1,1,0,0,0,1,1,1,1,0,0,0] 
 mask = [1]*len(seq) 
 # if provided as an input to genVariantes(), the mask 
@@ -152,12 +152,9 @@ RREWYL 0.00000 > GRSWYL 0.24504
 REWYLD 0.00000 > RSWYLD 0.06751
 EWYLDL 0.00000 > SWYLDL 0.08009
 
-Found 18 (0.00%) vanriants with no mers scoring less than 0.05
+Found 18 (0.00%) variants with no mers scoring less than 0.05
 ```
 -----
-
-## Build your own maps
-
 ### Citation
 
 ```
